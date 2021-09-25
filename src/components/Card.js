@@ -4,15 +4,14 @@ import Card from './Card.css'
 
 export default props =>
     <div className="Card">
-                
-        
+                        
         <div className="Titulo">
             {props.titulo1}
         </div>
         <div className="Texto">
             {props.texto1}
         </div>
-        <div className="Titulo">
+        <div className="Titulo2">
             {props.titulo2}
         </div>
         <div className="Texto">

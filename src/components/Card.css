@@ -1,50 +1,3 @@
-.Card {
-    margin: 20px;
-
-    display: flex;
-    flex-direction: column;
-    min-width: 300px;
-    margin-top: 10px;
-}
-
-/*.Card .Header {
-    background-color: orange;
-    color: black;
-    padding: 5px 0px;
-    max-width: 60px;
-}*/
-
-.Card .Menu {
-    color:black;
-}
-
-/*.button{
-    position: absolute;
-    width: 150px;
-    height: 32px;
-    left: 1473px;
-    top: 40px;
-
-    background: #6E3EC1;
-    border-radius: 30px;
-
-    position: absolute;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 19px;
-    display: flex;
-    align-items: center;
-    text-align: center;
-
-    color: #ffffff;
-    
-    width: 80px;
-    height: 19px;
-    left: 1527px;
-    top: 46px;
-}*/
 
 .button2 {
     /*position: absolute;*/
@@ -67,33 +20,6 @@
     text-align: center;
 
     color: #3B3838;
-}
-
-.Card .Footer {
-    background-color: white;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    font-style: normal;
-    font-weight: 800;
-    font-size: 70px;
-    line-height: 96px;
-    color: #3b3838;
-
-    position: absolute;
-    
-    height: 288px;
-    left: 187 px;
-    top: 187px;
-    padding: 10px 0px;
-}
-
-#white {
-    background-color: white;
-    margin: 100px;
-}
-
-#gray {
-    background-color: #F8F8F8;
-    margin: 100px;
 }
 
 .Card .Titulo {
@@ -136,6 +62,24 @@
     line-height: 34px;
 
     color: #000000;
+}
+
+.Titulo2 {
+    /*position: absolute;*/
+    width: 641px;
+    height: 68px;
+    left: 640px;
+    top: 1707px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 68px;
+    text-align: center;
+
+    color: #3B3838;
+    
 }
 
 .Titulo3 {
@@ -188,6 +132,9 @@
     line-height: 75px;
 
     color: #3B3838;
+
+    background-color: #F8F8F8;
+    margin: 100px;
 }
 
 .Titulo5 {
