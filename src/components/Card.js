@@ -4,46 +4,32 @@ import Card from './Card.css'
 
 export default props =>
     <div className="Card">
-                        
-        <div className="Titulo">
-            {props.titulo1}
+        <div className="card1">
+            {props.h1}
+            {props.p}
         </div>
-        <div className="Texto">
-            {props.texto1}
+        <div className="card2">
+            {props.h1}
+            {props.p}
         </div>
-        <div className="Titulo2">
-            {props.titulo2}
+        <div className="card3">
+            {props.h1}
+            {props.p}
         </div>
-        <div className="Texto">
-            {props.texto2}
+        <div className="card4">
+            {props.h1}
+            {props.p}
         </div>
-        <div className="Titulo3">
-            {props.titulo3}
+        <div className="card5">
+            {props.h1}
+            {props.p}
         </div>
-        <div className="Texto">
-            {props.texto3}
-        </div>
-        <div className="Titulo">
-            {props.titulo4}
-        </div>
-        <div className="Texto">
-            {props.texto4}
-        </div>
-        <div className="Titulo5">
-            {props.titulo5}
-        </div>
-        <div className="Texto5">
-            {props.texto5}
-        </div>
-        <div className="Titulo">
-            {props.titulo6}
-        </div>
-        <div className="Question">
-            {props.question1}
-            {props.question2}
+        <div className="card6">
+            {props.h1}
+            {props.p}
         </div>
         <div className="Button">
-            {props.buttonText2}
+            {props.button2}
         </div>
        
     </div>
