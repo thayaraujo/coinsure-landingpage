@@ -1,0 +1,274 @@
+.Card {
+    margin: 20px;
+
+    display: flex;
+    flex-direction: column;
+    min-width: 300px;
+    margin-top: 10px;
+}
+
+/*.Card .Header {
+    background-color: orange;
+    color: black;
+    padding: 5px 0px;
+    max-width: 60px;
+}*/
+
+.Card .Menu {
+    color:black;
+}
+
+/*.button{
+    position: absolute;
+    width: 150px;
+    height: 32px;
+    left: 1473px;
+    top: 40px;
+
+    background: #6E3EC1;
+    border-radius: 30px;
+
+    position: absolute;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 19px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #ffffff;
+    
+    width: 80px;
+    height: 19px;
+    left: 1527px;
+    top: 46px;
+}*/
+
+.button2 {
+    /*position: absolute;*/
+    width: 209px;
+    height: 57px;
+    left: 187px;
+    top: 616px;
+
+    background: #F8C000;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 15px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 20px;
+    line-height: 27px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+
+    color: #3B3838;
+}
+
+.Card .Footer {
+    background-color: white;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 96px;
+    color: #3b3838;
+
+    position: absolute;
+    
+    height: 288px;
+    left: 187 px;
+    top: 187px;
+    padding: 10px 0px;
+}
+
+#white {
+    background-color: white;
+    margin: 100px;
+}
+
+#gray {
+    background-color: #F8F8F8;
+    margin: 100px;
+}
+
+.Card .Titulo {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 96px;
+    
+    color: #3B3838;
+}
+
+.Titulo1 {
+   /*position: absolute;*/
+    width: 762px;
+    height: 288px;
+    left: 187px;
+    top: 187px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 800;
+    font-size: 70px;
+    line-height: 96px;
+
+    color: #3B3838;
+}
+
+.Texto1{
+    /*position: absolute;*/
+    width: 677px;
+    height: 68px;
+    left: 187px;
+    top: 507px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 34px;
+
+    color: #000000;
+}
+
+.Titulo3 {
+    /*position: absolute;*/
+    width: 641px;
+    height: 68px;
+    left: 640px;
+    top: 1707px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 50px;
+    line-height: 68px;
+    text-align: center;
+
+    color: #3B3838;
+}
+
+.Texto3 {
+    /*position: absolute;*/
+    /*width: 885px;
+    height: 68px;
+    left: 518px;
+    top: 1801px;*/
+    max-width: 100%;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 34px;
+    /*text-align: center;*/
+    justify-content: center;
+
+    color: #000000;
+}
+
+.Titulo4 {
+    /*position: absolute;*/
+    width: 1088px;
+    height: 78px;
+    left: 187px;
+    top: 2366px;
+
+    font-family: Avenir Next;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 75px;
+
+    color: #3B3838;
+}
+
+.Titulo5 {
+    /*position: absolute;*/
+    width: 909px;
+    height: 78px;
+    left: 187px;
+    top: 2945px;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 55px;
+    line-height: 75px;
+
+    color: #3B3838;
+}
+
+.Texto5 {
+    /*position: absolute;*/
+    width: 885px;
+    height: 98px;
+    left: 187px;
+    top: 3045px;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 25px;
+    line-height: 34px;
+    text-align: justify;
+
+    color: #000000;
+}
+
+.question1 {
+    position: absolute;
+    width: 1920px;
+    height: 767px;
+    left: 6px;
+    top: 830px;
+
+    background: #F8F8F8;
+
+    /*position: absolute;*/
+    width: 687px;
+    height: 71px;
+    left: 249px;
+    top: 3717px;
+    
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 34px;
+    text-align: justify;
+
+    color: #000000;
+}
+
+.question2 {
+    position: absolute;
+    width: 1920px;
+    height: 767px;
+    left: 6px;
+    top: 830px;
+    background: #F8F8F8;
+    
+    /*position: absolute;*/
+    width: 687px;
+    height: 71px;
+    left: 1123px;
+    top: 3717px;
+    background: #F8F8F8;
+
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 34px;
+    text-align: justify;
+
+    color: #000000;
+}
