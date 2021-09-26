@@ -59,22 +59,31 @@ export default (props) => (
            lembrar de realizar a renovação quando chegar a hora!</p>
         <img className="img5"src={imgcard5} />
       </div>
-
+     
       <div id="card6">
         <h1> Perguntas e respostas</h1>
-        <p>Tem custo para abrir uma conta?</p>
-        <img className="icon" src={icon} /> 
-        <p>Não, o único valor que você paga é o do próprio seguro.</p>
-        <p>Tenho um corretor de confiança, e agora?</p>
-        <p>Tudo bem, convide ele para fazer parte do clube corretor parceiro.</p>
-        <p>Quando tiver um sinistro, vocês me ajudam?</p>
-        <p>Sim, fazemos toda a intermediação do sinistro para você.</p>
-        <p>Vocês terão mais produtos na plataforma?</p>
-        <p>Sim, estamos ampliando o nosso portfólio para que tenhamos todas as modalidades 
-           de coberturas aqui.</p>  
-      </div>
+          <div className="linha">
+            <div className="coluna">
+              <ul>
+                <li><img className="icon"src={icon} />Tem custo para abrir uma conta?</li>
+                <p>Não, o único valor que você paga é o do próprio seguro.</p>
+                <li><img className="icon"src={icon} />Tenho um corretor de confiança, e agora?</li>
+                <p>Tudo bem, convide ele para fazer parte do clube corretor parceiro.</p>
+              </ul>
+            </div>
+            
+            <div className="coluna">
+              <ul>
+                <li><img className="icon"src={icon} />Quando tiver um sinistro, vocês me ajudam?</li>
+                <p>Sim, fazemos toda a intermediação do sinistro para você.</p>
+                <li><img className="icon"src={icon} />Vocês terão mais produtos na plataforma?</li>
+                <p>Sim, estamos ampliando o nosso portfólio para que tenhamos todas as modalidades 
+                  de coberturas aqui.</p>  
+              </ul> 
+            </div>
+          </div>  
+       </div>
          
     </div>
  </div>
- 
 )
