@@ -71,10 +71,17 @@
     color: #3B3838;
 }
 
+.img1 {
+    width: 50%;
+    max-width: 980px;
+    padding: 5%;
+    margin-left: 40%;
+}
+
 #card2 {
     background-color: #F8F8F8;
     background-size: 980px;
-    margin-top: 10px;
+    margin: auto;
     padding: 5%;
 }
 
@@ -107,6 +114,12 @@
     font-size: 1rem;
     line-height: 30px;    
     color: #000000;
+}
+
+.img2 {
+    width: 80%;
+    max-width: 980px;
+    margin-left: 30%;
 }
 
 #card3 {
@@ -145,7 +158,22 @@
     font-size: 1rem;
     line-height: 30px;  
     text-align: center;  
+    margin-top: 5px;
     color: #000000;
+}
+
+.img3 {
+    width: 35%;
+    max-width: 980px;
+    padding: 5%;
+    margin-left: 50%;
+}
+
+.seguradoraslogo {
+    width: 40%;
+    max-width: 980px;
+    margin-left: 30%;
+    margin-right: 30%;
 }
 
 #card4 {
@@ -184,6 +212,13 @@
     font-size: 1rem;
     line-height: 30px;    
     color: #000000;
+}
+
+.img4 {
+    width: 35%;
+    max-width: 980px;
+    padding: 5%;
+    margin-left: 50%;
 }
 
 #card5 {
@@ -225,6 +260,13 @@
     color: #000000;
 }
 
+.img5 {
+    width: 40%;
+    max-width: 980px;
+    padding: 5%;
+    margin-left: 50%;
+}
+
 #card6 {
     background-color: #F8F8F8;
     background-size: 980px;
@@ -261,6 +303,10 @@
     font-size: 1rem;
     line-height: 30px;    
     color: #000000;
+}
+
+.icon {
+    width: 10px;
 }
 
 

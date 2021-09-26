@@ -17,9 +17,9 @@
   margin: auto;
 }
 
-.logo {
-  color: orange;
-  
+.logo{
+  width: 16%;
+  max-width: 980px;
 }
 
 .button {
