@@ -22,44 +22,81 @@ export default (props) => (
     </div>
 
     <div className="Card">
-      <div id="card1">
-        <h1>Coberturas para você e seu negócio com liberdade</h1>
-        <p>Uma plataforma de seguros que foi criada pensando na sua experiência.</p>
-        <button className='button2'>Gostei</button> 
-        <img className="img1" src={imgcard1} />
-      </div>
+      <div id="card1"> 
+          <div className="linha">
+            <div className="coluna">
+              <h1>Coberturas para <wbr/> você e seu negócio <wbr/> com liberdade</h1>
+              <br/>
+              <p>Uma plataforma de seguros que foi criada pensando na sua experiência.</p>
+              <button className='button2'>Gostei</button> 
+            </div>
+            
+            <div className="coluna">
+              <img className="img1" src={imgcard1} />
+            </div>
+          </div>  
+       </div>
 
-      <div id="card2">
-        <h1>Um MarketPlace de seguros e seguradoras</h1>
-        <p>Conectamos os produtos das seguradoras na Coinsure para que você possa
+      <div id="card2"> 
+          <div className="linha">
+            <div className="coluna">
+            <h1>Um MarketPlace de seguros e seguradoras</h1>
+            <p>Conectamos os produtos das seguradoras na Coinsure para que você possa
            contratar seguros de forma mais simples e educativa.</p>
-        <img className="img2" src={imgcard2} />
-      </div>
+            </div>
+            
+            <div className="coluna">
+              <img className="img2" src={imgcard2} />
+            </div>
+          </div>  
+       </div>
 
-      <div id="card3">
-        <h1>Seguradoras conectadas</h1>
-        <p>Nosso objetivo é trazer as seguradoras para perto de você transformando
-           a linguagem das coberturas em algo mais educativo e didático.</p>
-        <img className="img3" src={imgcard3} />
-        <img className="seguradoraslogo" src={seguradoras} />
-      </div>
+       <div id="card3"> 
+          <div className="linha">
+            <div className="coluna1">
+            <h1>Seguradoras conectadas</h1>
+            <p>Nosso objetivo é trazer as seguradoras para perto de você transformando
+               a linguagem das coberturas em algo mais educativo e didático.</p>
+            <img className="seguradoraslogo" src={seguradoras} />
+            </div>
+            
+            <div className="coluna2">
+              <img className="img3" src={imgcard3} />
+            </div>
+          </div>  
+       </div>
 
-      <div id="card4">
-        <h1>Digital, mas do seu lado =)</h1>
-        <p>Muitas vezes é difícil entender todas as coberturas do seguro. Por
-           isso, nos preocupamos em unir uma compra simples e educativa com uma 
-           assessoria especializada.</p>
-           <img className="img4" src={imgcard4} />
-      </div>
+       
+      <div id="card4"> 
+          <div className="linha">
+            <div className="coluna">
+              <h1>Digital, mas do seu lado =)</h1>
+              <p>Muitas vezes é difícil entender todas as coberturas do seguro. Por
+                 isso, nos preocupamos em unir uma compra simples e educativa com uma 
+                 assessoria especializada.</p>
+            </div>
+            
+            <div className="coluna">
+              <img className="img4" src={imgcard4} />
+            </div>
+          </div>  
+       </div>
       
       <div id="card5">
-        <h1>Lembramos você da sua renovação</h1>
-        <p>Você já chegou a perder a renovação de um seguro? Com a Coinsure,
-           você consegue subir todos os seus seguros na plataforma, e iremos te
-           lembrar de realizar a renovação quando chegar a hora!</p>
-        <img className="img5"src={imgcard5} />
+        <div className="linha">
+          <div className="coluna1">
+            <h1>Lembramos você da sua renovação</h1>
+            <p>Você já chegou a perder a renovação de um seguro? Com a Coinsure,
+              você consegue subir todos os seus seguros na plataforma, e iremos te
+              lembrar de realizar a renovação quando chegar a hora!</p>
+          </div>
+          
+          <div className="coluna2">
+            <img className="img5"src={imgcard5} />
+          </div>        
+        </div>
       </div>
-     
+        
       <div id="card6">
         <h1> Perguntas e respostas</h1>
           <div className="linha">
