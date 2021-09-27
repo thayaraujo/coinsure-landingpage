@@ -2,6 +2,7 @@ import React from 'react';
 import './App.css';
 import Card from './components/Card.js';
 import Header from './components/Header.js';
+import './Mobilenavbar';
 
 import imgcard1 from './assets/imgcard1.png'
 import imgcard2 from './assets/imgcard2.png'
@@ -16,19 +17,28 @@ import seguradoras from './assets/seguradoras.png'
 export default (props) => (
   <div className="container">
     <div className="containerMenu">
-      <img className="logo" src={logocoinsure} /> 
-      <button className='button'>gostei</button> 
-      <itens className="Itens">Home Seguros Login</itens>
+      <img className="logo" src={logocoinsure} />
+        <div className="mobile-menu">
+            <div className="line1"></div>
+            <div className="line2"></div>
+            <div className="line3"></div>
+        </div>
+        <ul class="nav-list">
+            <li><a href="#"><button className='button'>gostei</button></a></li>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Seguros</a></li>
+            <li><a a href="#">Login</a></li>
+         </ul>    
     </div>
 
     <div className="Card">
       <div id="card1"> 
           <div className="linha">
             <div className="coluna">
-              <h1>Coberturas para <wbr/> você e seu negócio <wbr/> com liberdade</h1>
+              <h1>Coberturas para <wbr/> você e seu negócio com <span className="word">liberdade</span></h1>
               <br/>
               <p>Uma plataforma de seguros que foi criada pensando na sua experiência.</p>
-              <button className='button2'>Gostei</button> 
+              <a href="#"><button className='button2'>Gostei</button></a> 
             </div>
             
             <div className="coluna">
